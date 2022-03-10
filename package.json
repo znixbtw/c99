@@ -1,0 +1,34 @@
+{
+  "name": "@znixbtw/c99",
+  "version": "1.0.0",
+  "description": "Unofficial API wrapper for C99.nl",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/znixbtw/c99.git"
+  },
+  "keywords": [
+    "c99"
+  ],
+  "author": "znix",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/znixbtw/c99/issues"
+  },
+  "homepage": "https://github.com/znixbtw/c99#readme",
+  "dependencies": {
+    "axios": "^0.26.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.10.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.5.1"
+  }
+}
