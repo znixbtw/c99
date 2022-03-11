@@ -12,6 +12,38 @@ Using yarn:
 ```bash
 $ yarn add @znixbtw/c99
 ```
+Using import/export
+```js
+import C99 from '@znixbtw/c99';
+```
+Using require()
+```js
+const C99 = require('@znixbtw/c99');
+```
+
+### Usage
+```js
+// Initalizing
+const client = new C99({
+	key: 'XXXX-XXXX-XXXX-XXXX'
+});
+
+// Using async/await
+async function ping() {
+	try {
+		const response = await client.ping('1.1.1.1');
+		console.log(response);
+	} catch (error) {
+		console.error(error);
+	}
+}
+
+// Using promises
+client
+	.ping('1.1.1.1')
+	.then((response) => console.log(response))
+	.catch((error) => console.error(error));
+```
 
 ### Available Functions (All descriptions are taken from [c99](https://api.c99.nl/))
 | Functions          | Description                                                                                                                                                                   |
@@ -35,16 +67,6 @@ $ yarn add @znixbtw/c99
 | geoIp()            | Locates the given host/ip address.                                                                                                                                            |
 | upOrDown()         | Checks if a host is up or down.                                                                                                                                               |
 
-### Usage
-```js
-const client = new C99({
-	key: 'XXXX-XXXX-XXXX-XXXX'
-});
-
-const pingIp = await client.ping('1.1.1.1')
-
-console.log(pingIp);
-```
 
 ### Docs
 * [Official](https://api.c99.nl/)
