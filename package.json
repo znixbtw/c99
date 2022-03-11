@@ -1,9 +1,8 @@
 {
 	"name": "@znixbtw/c99",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"description": "Unofficial API wrapper for C99.nl",
 	"main": "src/index.js",
-	"type": "module",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},

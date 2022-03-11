@@ -1,4 +1,4 @@
-import axios from 'axios';
+const axios = require('axios');
 
 const C99 = function (config) {
 	if (!this || this.constructor !== C99) {
@@ -238,4 +238,5 @@ C99.prototype.upOrDown = async function (host) {
 		.then(({ data }) => data)
 		.catch((error) => error);
 };
-export default C99;
+
+module.exports = C99;
