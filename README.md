@@ -30,6 +30,10 @@ $ yarn add @znixbtw/c99
 | domainHistory()    | Checks available IP history of a domain with dates.                                                                                                                           |
 | ip2domains()       | Attempts to find websites hosted on the specific IP address.                                                                                                                  |
 | alexaRank()        | Grab the latest Alexa Rank information of any website, including backlinks and top country.                                                                                   |
+| whois()            | Whois check on a domain to see who the domain owner is.                                                                                                                       |
+| createScreenshot() | Creates a screenshot of any website/url you want.                                                                                                                             |
+| geoIp()            | Locates the given host/ip address.                                                                                                                                            |
+| upOrDown()         | Checks if a host is up or down.                                                                                                                                               |
 
 ### Usage
 ```js
