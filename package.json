@@ -1,6 +1,6 @@
 {
 	"name": "@znixbtw/c99",
-	"version": "1.0.4",
+	"version": "1.0.5",
 	"description": "Unofficial API wrapper for C99.nl",
 	"main": "src/index.js",
 	"scripts": {
